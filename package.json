@@ -1,0 +1,23 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junaid-Ahmad-69/forkify-app.git"
+  },
+  "author": "Junaid Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junaid-Ahmad-69/forkify-app/issues"
+  },
+  "homepage": "https://github.com/Junaid-Ahmad-69/forkify-app#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
