@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Layout with Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar-container {
+            flex-basis: 250px;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+        }
+        .sidebar {
+            padding: 20px;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .widget {
+            background-color: #F0F0F0;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="sidebar-container">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+        </div>
+    </header>
+    <main class="main-content">
+        <h1>Main Content</h1>
+        <!-- Repeat the widgets as needed -->
+        <div class="widget">
+            <h2>Widget 1</h2>
+        </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div>
+        <div class="widget">
+            <h2>Widget 1</h2>
+        </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div> <div class="widget">
+        <h2>Widget 1</h2>
+    </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div> <div class="widget">
+        <h2>Widget 1</h2>
+    </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div> <div class="widget">
+        <h2>Widget 1</h2>
+    </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div> <div class="widget">
+        <h2>Widget 1</h2>
+    </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div> <div class="widget">
+        <h2>Widget 1</h2>
+    </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div> <div class="widget">
+        <h2>Widget 1</h2>
+    </div>
+        <div class="widget">
+            <h2>Widget 2</h2>
+        </div>
+        <!-- Add more widgets here -->
+    </main>
+</div>
+</body>
+</html>
